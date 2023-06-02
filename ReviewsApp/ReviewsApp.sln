@@ -5,24 +5,24 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AA667BA-5F7C-4304-A15B-4982BCDB43DD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7962A44E-E518-4C6A-8F61-9B381A46C30C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{2C97B012-CE37-41EB-8C06-8E05E1CD086D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{0F413758-ECC1-4FFD-BFB3-215993387763}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{0013931C-8776-4E9E-BBAA-18F375D4E44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentsAPI", "CommentsAPI\CommentsAPI.csproj", "{92EF1B1B-50BF-4EEE-A773-F3569E098353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentsAPI", "CommentsAPI\CommentsAPI.csproj", "{92EF1B1B-50BF-4EEE-A773-F3569E098353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewsAPI", "ReviewsAPI\ReviewsAPI.csproj", "{67B1A77B-D637-4E86-8BCE-343961E1F785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewsAPI", "ReviewsAPI\ReviewsAPI.csproj", "{67B1A77B-D637-4E86-8BCE-343961E1F785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{9FBD51FF-E23E-4A8F-A907-C32765CD643A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{9FBD51FF-E23E-4A8F-A907-C32765CD643A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{86F9806F-A144-40C6-BBC3-BC226F3D09B4}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C5547034-B383-49D6-81E4-A2ECCBC2B1C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +54,10 @@ Global
 		{9FBD51FF-E23E-4A8F-A907-C32765CD643A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FBD51FF-E23E-4A8F-A907-C32765CD643A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FBD51FF-E23E-4A8F-A907-C32765CD643A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5547034-B383-49D6-81E4-A2ECCBC2B1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5547034-B383-49D6-81E4-A2ECCBC2B1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5547034-B383-49D6-81E4-A2ECCBC2B1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5547034-B383-49D6-81E4-A2ECCBC2B1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
